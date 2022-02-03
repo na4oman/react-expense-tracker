@@ -7,3 +7,8 @@
   justify-content: space-around;
   height: 10rem;
 }
+
+.chart-title {
+  text-align: center;
+  color: #fff;
+}

@@ -8,6 +8,7 @@ const ChartBar = props => {
 
   return (
     <div className='chart-bar'>
+      <div className='chart-bar__label'>{props.value.toFixed(2)}</div>
       <div className='chart-bar__inner'>
         <div
           className='chart-bar__fill'
